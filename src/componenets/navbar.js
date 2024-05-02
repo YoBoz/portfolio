@@ -31,14 +31,14 @@ const Navbar = () => {
         </nav>
         
         <nav className='flex items-center justify-center flex-wrap'>
-        <motion.a href="https://www.twitter.com" target={"_blank"} className='w-6 mr-3' whileHover={{y:-2}} whileTap={{scale:0.9}}>
-            <TwitterIcon/>
+        <motion.a href="https://www.linkedin.com/in/ibrahim-rathwala/" target={"_blank"} className='w-6 mr-3' whileHover={{y:-2}} whileTap={{scale:0.9}}>
+            <LinkedInIcon/>
         </motion.a>
         <motion.a href="https://github.com/YoBoz" target={"_blank"} className='w-6 mr-3' whileHover={{y:-2}} whileTap={{scale:0.9}}>
             <GithubIcon/>
         </motion.a>
-        <motion.a href="https://www.linkedin.com/in/ibrahim-rathwala/" target={"_blank"} className='w-6 mr-3' whileHover={{y:-2}} whileTap={{scale:0.9}}>
-            <LinkedInIcon/>
+        <motion.a href="https://www.instagram.com/yoboz__?igsh=MTlpbXpwYjBnenVveA%3D%3D&utm_source=qr" target={"_blank"} className='w-6 mr-3' whileHover={{y:-2}} whileTap={{scale:0.9}}>
+            <InstagramIcon/>
         </motion.a>
         {/* <Link href="/" target={"_blank"}>
             <InstagramIcon/>
