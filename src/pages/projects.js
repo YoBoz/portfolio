@@ -6,13 +6,15 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import pfp from '../../public/work7.jpg'
+import pfp1 from '../../public/4.png'
+import pfp2 from '../../public/R.png'
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     return (
         <article className='w-full flex items-center justify-between rounded-3xl border border-solid border-dark 
         bg-light shadow-2xl p-12 relative rounded-br-2xl'>
             <div className='absolute top-0 -right-3 -z-10  w-[101%] h-[103%] rounded-[2.5rem] rounded-br-3xl bg-dark'/>
-            <Link href={link} target='_blank'
+            <Link href={github} target='_blank'
                 className='w-1/2 cursor-pointer overflow-hidden rounded-lg'
             >
                 <Image src={img} alt={title} className='w-full h-auto' />
@@ -46,7 +48,7 @@ const Project = ({ type, title, img, link, github }) => {
     return (
         <article className='w-full flex flex-col items-center justify-center rounded-2xl border boder-solid border-dark p-6 relative bg-light'>
             <div className='absolute top-0 -right-3 -z-10  w-[102%] h-[103%] rounded-[2rem] bg-dark'/>
-            <Link href={link} target='_blank'
+            <Link href={github} target='_blank'
                 className='w-full cursor-pointer overflow-hidden rounded-lg'
             >
                 <Image src={img} alt={title} className='w-full h-auto' />
@@ -99,19 +101,19 @@ const projects = () => {
                         </div>
                         <div className='col-span-6'>
                             <Project
-                                title={"Brainwave: A Collaborative Brainstorming Platform"}
+                                title={"Mastermind Game using Raspberry Pi in C and ARM "}
                                 link={"/"}
                                 type={"Project"}
-                                img={pfp}
+                                img={pfp1}
                                 github={"https://github.com/YoBoz/"}
                             />
                         </div>
                         <div className='col-span-6'>
                             <Project
-                                title={"Brainwave: A Collaborative Brainstorming Platform"}
+                                title={"Tic Tac Toe Game using AI agents"}
                                 link={"/"}
                                 type={"Project"}
-                                img={pfp}
+                                img={pfp2}
                                 github={"https://github.com/YoBoz/"}
                             />
                         </div>
