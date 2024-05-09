@@ -2,8 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
-import { GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from './Icons'
+import { GithubIcon, InstagramIcon, LinkedInIcon, MoonIcon, SunIcon, TwitterIcon } from './Icons'
 import { motion } from 'framer-motion'
+import useThemeSwitcher from './hooks/useThemeSwitcher'
 
 
 const CustomLink = ({href, title, className=''}) => {
@@ -15,14 +16,18 @@ const CustomLink = ({href, title, className=''}) => {
         
         
         <span className={`h-[1.5px] inline-block bg-dark absolute left-0 -bottom-0.5 
-        group-hover:w-full transition-[width] ease duration-300 ${router.asPath === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
+        group-hover:w-full transition-[width] ease duration-300 dark:bg-light ${router.asPath === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
         </Link>
     )
 }
 
 const Navbar = () => {
+
+    const [mode, setMode] = useThemeSwitcher();
+
   return (
-    <header className='w-full px-32 py-8 font-medium flex items-center justify-between'>
+    <header className='w-full px-32 py-8 font-medium flex items-center justify-between
+    dark:text-light'>
         <nav>
             <CustomLink href="/" title="Home" className='mr-4'/>
             <CustomLink href="/about" title="About" className='mx-4'/>
@@ -40,9 +45,20 @@ const Navbar = () => {
         <motion.a href="https://www.instagram.com/yoboz__?igsh=MTlpbXpwYjBnenVveA%3D%3D&utm_source=qr" target={"_blank"} className='w-6 mr-3' whileHover={{y:-2}} whileTap={{scale:0.9}}>
             <InstagramIcon/>
         </motion.a>
-        {/* <Link href="/" target={"_blank"}>
-            <InstagramIcon/>
-        </Link> */}
+        
+        <button 
+    onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}
+    className={`flex items-center justify-center rounded-full p-1 ${
+        mode === "dark" ? "bg-light text-dark" : "bg-dark text-light"
+    }`}
+>
+            {
+                mode === "dark" ? 
+                <SunIcon className={"fill-dark"}/>
+                : <MoonIcon className={"fill-dark"}/>
+            }
+        </button>
+        
         </nav>
 
         <div className='absolute left-[50%] t-2 translate-x-[-50%]'>

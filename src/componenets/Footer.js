@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Footer = () => {
   return (
-    <footer className='w-full border-t-2 border-solid border-dark text-lg'>
+    <footer className='w-full border-t-2 border-solid border-dark text-lg dark:text-light dark:border-light'>
         <Layout className='py-8 flex items-center justify-between'>
 
         <motion.a href={"/"} className='underline'
