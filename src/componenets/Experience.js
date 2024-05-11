@@ -42,10 +42,18 @@ const Experience = () => {
         className='absolute left-9 top-2 w-[4px] h-full bg-dark origin-top dark:bg-light ms:w-[2px] md:left-[30px] xs:left-[20px]'/>
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details
+            position={"President Art Club"}
+            companyLink={"https://www.hw.ac.uk/dubai/"}
+            company={"Heriot-Watt University"}
+            time={"April 2024-Present"}
+            address={"Dubai, UAE"}
+            work={"President of the Art Club, leading a diverse community of 200+ students. Spearheaded engaging and innovative sessions, fostering creativity and collaboration among members. Collaborated closely with the Student Council to organize successful events, including Halloween celebrations, enhancing the university's social and cultural fabric."}
+            />
+            <Details
             position={"Research Associate"}
             companyLink={"https://www.hw.ac.uk/dubai/"}
             company={"Heriot-Watt University"}
-            time={"Feb 2024-Present"}
+            time={"Feb 2024-May 2024"}
             address={"Dubai, UAE"}
             work={"Actively collaborated with the WattMUN 2024 executive research team to create well-structured agendas and comprehensive background materials. Organized training sessions, imparting valuable insights on policy research methodologies, diplomatic strategies,and effective communication."}
             />
