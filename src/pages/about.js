@@ -77,13 +77,14 @@ const about = () => {
                         </div>
 
                         <div className='col-span-2 flex flex-col items-end xl:col-span-10 xl:flex-row xl:items-center xl:justify-center md:order-3'>
-                            <div className='flex flex-col items-end justify-center xl:items-center '>
-                                <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
+                            <div className='flex flex-col items-end justify-center xl:items-center mr-8'>
+                                <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl xl:items-center'>
                                     <AnimatedNumber value={5} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light xl:text-center sm:text-base xs:text-sm'>projects completed</h2>
                             </div>
-                            <div className='flex flex-col items-end justify-center py-10'>
+
+                            <div className='flex flex-col items-end justify-center py-10 xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                     <AnimatedNumber value={2} />+
                                 </span>
