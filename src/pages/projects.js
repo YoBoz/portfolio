@@ -8,6 +8,7 @@ import React from 'react'
 import pfp from '../../public/work7.jpg'
 import pfp1 from '../../public/4.png'
 import pfp2 from '../../public/R.png'
+import TransitionEffecct from '@/componenets/TransitionEffecct'
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     return (
@@ -88,6 +89,7 @@ const projects = () => {
                 </title>
                 <meta name='description' content='Few of my projects...' />
             </Head>
+            <TransitionEffecct/>
             <main className='w-full flex flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
                     <AnimatedText text={"Imagination Trumps Knowledge!"} className='mb-16 lg:text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
