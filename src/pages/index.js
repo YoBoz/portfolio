@@ -57,7 +57,7 @@ export default function Home() {
           </div>
         </Layout>
 
-        <HireMe/>
+        {/* <HireMe/> */}
 
         <div className='absolute right-8 bottom-8 inline-block w-24'>
           <Image src={light} className='w-full h-auto md:hidden'></Image>
