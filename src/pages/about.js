@@ -9,6 +9,7 @@ import Skills from '@/componenets/Skills'
 import Experience from '@/componenets/Experience'
 import Education from '@/componenets/Education'
 import TransitionEffecct from '@/componenets/TransitionEffecct'
+import Achivements from '@/componenets/Achivements'
 
 
 const AnimatedNumber = ({ value }) => {
@@ -58,7 +59,7 @@ const about = () => {
                             </h2>
 
                             <p className='font-medium'>
-                                Hello! I'm Ibrahim Rathwala, a dedicated third-year Computer Science student at Heriot-Watt University Dubai, specializing in Artificial Intelligence.
+                                Hello! I'm Ibrahim Rathwala, a dedicated final year Computer Science student at Heriot-Watt University Dubai, specializing in Artificial Intelligence.
                                 With a perfect GPA of 4.0 and a strong interest in data-driven projects, I'm always eager to apply my analytical skills and technical knowledge in practical settings.
                             </p>
 
@@ -97,6 +98,7 @@ const about = () => {
                     <Skills />
                     <Experience />
                     <Education />
+                    <Achivements />
                 </Layout>
             </main>
         </>

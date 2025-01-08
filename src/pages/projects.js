@@ -8,6 +8,9 @@ import React from 'react'
 import pfp from '../../public/work7.jpg'
 import pfp1 from '../../public/4.png'
 import pfp2 from '../../public/R.png'
+import pfp3 from '../../public/venigma(1).jpeg'
+import pfp4 from '../../public/w.jpg'
+import pfp5 from '../../public/ppp.jpg'
 import TransitionEffecct from '@/componenets/TransitionEffecct'
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -20,7 +23,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             <Link href={github} target='_blank'
                 className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'
             >
-                <Image src={img} alt={title} className='w-full h-auto' priority />
+                <Image src={img} alt={title} className='w-[full] h-auto' priority />
 
             </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
@@ -56,7 +59,7 @@ const Project = ({ type, title, img, link, github }) => {
             <Link href={github} target='_blank'
                 className='w-full cursor-pointer overflow-hidden rounded-lg'
             >
-                <Image src={img} alt={title} className='w-full h-auto' priority />
+                <Image src={img} alt={title} className='w-full h-[350px]' priority />
 
             </Link>
             <div className='w-full flex flex-col items-start justify-between mt-4'>
@@ -103,6 +106,33 @@ const projects = () => {
                                 type={"Featured Project"}
                                 img={pfp}
                                 github={"https://github.com/YoBoz/brain-wave"}
+                            />
+                            
+                            <FeaturedProject
+                                title={"Ecosave Sign: A Document Signing Platform"}
+                                summary={" Implemented an eSignature platform for efficient contract signing and email dispatch, resulting in a 59% reduction in operational costs for the company."}
+                                link={"/"}
+                                type={"Featured Project"}
+                                img={pfp5}
+                                github={"https://github.com/YoBoz/brain-wave"}
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title={"Venigma : The AI video Editing tool"}
+                                link={"/"}
+                                type={"Project"}
+                                img={pfp3}
+                                github={"https://github.com/YoBoz/Venigma"}
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title={"Travel Agent System"}
+                                link={"/"}
+                                type={"Project"}
+                                img={pfp4}
+                                github={"https://github.com/YoBoz/Travel-Agent-System"}
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>

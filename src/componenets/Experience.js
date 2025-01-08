@@ -45,7 +45,7 @@ const Experience = () => {
                         position={"Software Engineer Intern"}
                         companyLink={"https://www.linkedin.com/company/ukr-group/mycompany/"}
                         company={"UKR Group"}
-                        time={"June 2024-Present"}
+                        time={"June 2024-September 2024"}
                         address={"Dubai, UAE"}
                         work={"Developed a custom CRM solution using PHP and MySQL, incorporating advanced data cleaning techniques in Python to streamline client data integration and enhance overall data accuracy. Implemented an eSignature platform for efficient contract signing and email dispatch, resulting in a 59% reduction in operational costs for the company."}
                     />
@@ -56,6 +56,14 @@ const Experience = () => {
                         time={"April 2024-Present"}
                         address={"Dubai, UAE"}
                         work={"President of the Art Club, leading a diverse community of 200+ students. Spearheaded engaging and innovative sessions, fostering creativity and collaboration among members. Collaborated closely with the Student Council to organize successful events, including Halloween celebrations, enhancing the university's social and cultural fabric."}
+                    />
+                    <Details
+                        position={"Teaching Assistant"}
+                        companyLink={"https://www.hw.ac.uk/dubai/"}
+                        company={"Heriot-Watt University"}
+                        time={"September 2024-Present"}
+                        address={"Dubai, UAE"}
+                        work={"Helped Students in courses that included Artificial Intelligence and Intelligent Agents, Language Processors, Data Structures and Algorithms and Programming Languages"}
                     />
                     <Details
                         position={"Research Associate"}
