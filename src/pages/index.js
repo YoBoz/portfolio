@@ -41,7 +41,7 @@ export default function Home() {
 
               <div className='flex items-center self-start mt-2 lg:self-center'>
 
-              <Link href="/Ibrahim Rathwala CV.pdf" target="_blank" 
+              <Link href="/Ibrahim Rathwala.pdf" target="_blank" 
               className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
               border-2 border-solid border-transperant hover:border-dark dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:border-dark dark:hover:border-light
               md:p-2 md:px-4 md:text-base'
