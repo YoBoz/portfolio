@@ -69,7 +69,7 @@ const Experience = () => {
                         position={"Teaching Assistant"}
                         companyLink={"https://www.hw.ac.uk/dubai/"}
                         company={"Heriot-Watt University"}
-                        time={"September 2024-Present"}
+                        time={"September 2024-March 2025"}
                         address={"Dubai, UAE"}
                         work={"Helped Students in courses that included Artificial Intelligence and Intelligent Agents, Language Processors, Data Structures and Algorithms and Programming Languages"}
                     />

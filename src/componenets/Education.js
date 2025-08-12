@@ -42,7 +42,7 @@ const Education = () => {
             type={"Bachelor Of Science In Computer Science"}
             time={"2022-2025"}
             place={"Heriot-Watt University, Dubai"}
-            info={"Relevant courses included Data structures and algorithms, Programming Languages, Hardware Software Interface, Software Engineering, Web Programming, Database Management Systems, AI and Intelligent Agents, Data Communications and Networking."}
+            info={"Relevant courses included Data structures and algorithms, Digital Forensics, Hardware Software Interface, Software Engineering, Web Programming, Database Management Systems, AI and Intelligent Agents, Data Communications and Networking."}
             />
             <Details
             type={"High School"}
