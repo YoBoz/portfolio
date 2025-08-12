@@ -39,8 +39,13 @@ const Achivements = () => {
         className='absolute left-9 top-2 w-[4px] h-full bg-dark origin-top dark:bg-light ms:w-[2px] md:left-[30px] xs:left-[20px]'/>
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details
+            type={"First Class Honors Award"}
+            time={"2025"}
+            info={"Scored a perfect 4.0 GPA in undergraduate degree, achieving First Class Honors Award."}
+            />
+            <Details
             type={"Deputy Principal’s Award"}
-            time={"2023 & 2024"}
+            time={"2023 & 2024 & 2025"}
             info={"Awarded Academic Excellence Award two consecutive years in recognition of outstanding scholastic performance, achieving Grade A in 6+ undergraduate courses for two consecutive years."}
             />
             <Details

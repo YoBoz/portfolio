@@ -40,7 +40,7 @@ const Education = () => {
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details
             type={"Bachelor Of Science In Computer Science"}
-            time={"2022-Present"}
+            time={"2022-2025"}
             place={"Heriot-Watt University, Dubai"}
             info={"Relevant courses included Data structures and algorithms, Programming Languages, Hardware Software Interface, Software Engineering, Web Programming, Database Management Systems, AI and Intelligent Agents, Data Communications and Networking."}
             />
