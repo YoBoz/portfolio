@@ -30,20 +30,22 @@ const Skills = () => {
          lg:p-6 md:p-4 xs:p-2 xs:text-xs'
         whileHover={{scale:1.05}}
         >
-            Development
+            AI / ML
         </motion.div>
 
-        <Skill name={"HTML"} x={"-20vw"} y={"2vw"}/>
-        <Skill name={"CSS"} x={"-5vw"} y={"-9vw"}/>
-        <Skill name={"Javascript"} x={"26vw"} y={"6vw"}/>
-        <Skill name={"React JS"} x={"-20vw"} y={"-13vw"}/>
-        <Skill name={"Next JS"} x={"15vw"} y={"9vw"}/>
-        <Skill name={"Node JS"} x={"3vw"} y={"-24vw"}/>
-        <Skill name={"Python"} x={"20vw"} y={"-13vw"}/>
-        <Skill name={"Tensorflow"} x={"-12vw"} y={"16vw"}/>
-        <Skill name={"Git"} x={"-33vw"} y={"5vw"}/>
-        <Skill name={"Scikitlearn"} x={"32vw"} y={"-8vw"}/>
-        <Skill name={"Pytorch"} x={"10vw"} y={"22vw"}/>
+        <Skill name={"Python"} x={"-20vw"} y={"2vw"}/>
+        <Skill name={"LangChain"} x={"-5vw"} y={"-9vw"}/>
+        <Skill name={"PyTorch"} x={"26vw"} y={"6vw"}/>
+        <Skill name={"RAG / FAISS"} x={"-20vw"} y={"-13vw"}/>
+        <Skill name={"FastAPI"} x={"15vw"} y={"9vw"}/>
+        <Skill name={"TensorFlow"} x={"3vw"} y={"-24vw"}/>
+        <Skill name={"Scikit-learn"} x={"20vw"} y={"-13vw"}/>
+        <Skill name={"React / Next.js"} x={"-12vw"} y={"16vw"}/>
+        <Skill name={"PostgreSQL"} x={"-33vw"} y={"5vw"}/>
+        <Skill name={"Docker"} x={"32vw"} y={"-8vw"}/>
+        <Skill name={"Redis"} x={"10vw"} y={"22vw"}/>
+        <Skill name={"SQL"} x={"-30vw"} y={"-7vw"}/>
+        <Skill name={"Azure / AWS"} x={"-2vw"} y={"11vw"}/>
     </div>
     </>
   )

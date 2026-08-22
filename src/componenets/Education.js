@@ -39,14 +39,20 @@ const Education = () => {
         className='absolute left-9 top-2 w-[4px] h-full bg-dark origin-top dark:bg-light ms:w-[2px] md:left-[30px] xs:left-[20px]'/>
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details
-            type={"Bachelor Of Science In Computer Science"}
-            time={"2022-2025"}
+            type={"MS in Computer Science (Machine Learning)"}
+            time={"2026 – Present"}
+            place={"Georgia Institute of Technology, Online"}
+            info={"Online Master of Science in Computer Science with a Machine Learning specialisation."}
+            />
+            <Details
+            type={"BSc Computer Science (Artificial Intelligence) — First-Class Honours"}
+            time={"2022 – 2025"}
             place={"Heriot-Watt University, Dubai"}
-            info={"Relevant courses included Data structures and algorithms, Digital Forensics, Hardware Software Interface, Software Engineering, Web Programming, Database Management Systems, AI and Intelligent Agents, Data Communications and Networking."}
+            info={"Graduated with First-Class Honours (4.0 GPA). Relevant courses included Data Structures and Algorithms, AI and Intelligent Agents, Software Engineering, Web Programming, Database Management Systems, Digital Forensics, Hardware Software Interface, Data Communications and Networking."}
             />
             <Details
             type={"High School"}
-            time={"2010-2022"}
+            time={"2010 – 2022"}
             place={"Delhi Private School, Sharjah"}
             info={"Science Stream courses included Physics, Maths, Chemistry, Computer Science."}
             />

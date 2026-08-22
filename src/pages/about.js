@@ -59,18 +59,15 @@ const about = () => {
                             </h2>
 
                             <p className='font-medium'>
-                                Hello! I'm Ibrahim Rathwala, a dedicated final year Computer Science student at Heriot-Watt University Dubai, specializing in Artificial Intelligence.
-                                With a perfect GPA of 4.0 and a strong interest in data-driven projects, I'm always eager to apply my analytical skills and technical knowledge in practical settings.
+                                Hello! I&apos;m Ibrahim Rathwala, an AI/ML Engineer based in Dubai. I graduated from Heriot-Watt University with First-Class Honours in Computer Science (Artificial Intelligence), and I&apos;m currently pursuing an MS in Computer Science (Machine Learning) at Georgia Tech.
                             </p>
 
                             <p className='font-medium my-4'>
-                                My passion lies in designing and developing innovative digital solutions that enhance user engagement and effectiveness.
-                                Whether it’s creating dynamic features for a collaborative brainstorming platform like Brainwave or developing a physical Mastermind game using a Raspberry Pi, I bring a commitment to technical excellence and user-centered design to every project.
+                                At The Rufescent I build agent modules for HÜSE.AI — a multi-tenant conversational HR platform on WhatsApp serving 20 companies — including its leave balance engine and a policy RAG built on FAISS, sentence-transformers and LangChain with GPT-4o tiered per task to control cost. Outside work I built AOMS, a multi-tenant operations platform with 320+ REST endpoints and a double-entry accounting engine at its core.
                             </p>
 
                             <p className='font-medium my-4'>
-                                I'm proficient in modern web technologies including React, Next.js, and Node.js, and I'm well-versed in a variety of programming languages like Python, Java, and JavaScript. I also have a strong foundation in frameworks like TensorFlow and PyTorch.
-                                I look forward to the opportunity to bring my skills and passion for technology and data to your next project.
+                                I work across the stack — Python, FastAPI, PostgreSQL and Redis on the backend; React, Next.js and React Native on the frontend; PyTorch, TensorFlow and Scikit-learn for ML — and ship with Docker and GitHub Actions. I&apos;m always keen to bring this mix of AI engineering and full-stack delivery to problems that matter.
                             </p>
                         </div>
 
@@ -82,9 +79,9 @@ const about = () => {
                         <div className='col-span-2 flex flex-col items-end xl:col-span-10 xl:flex-row xl:items-center xl:justify-center md:order-3'>
                             <div className='flex flex-col items-end justify-center xl:items-center mr-8'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl xl:items-center'>
-                                    <AnimatedNumber value={5} />+
+                                    <AnimatedNumber value={20} />
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light xl:text-center sm:text-base xs:text-sm'>projects completed</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light xl:text-center sm:text-base xs:text-sm'>companies served by HÜSE.AI</h2>
                             </div>
 
                             <div className='flex flex-col items-end justify-center py-10 xl:items-center'>

@@ -30,7 +30,7 @@ const Achivements = () => {
   return (
     < div className='my-64'>
       <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-      Achivements
+      Achievements
     </h2>
 
     <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
@@ -39,24 +39,34 @@ const Achivements = () => {
         className='absolute left-9 top-2 w-[4px] h-full bg-dark origin-top dark:bg-light ms:w-[2px] md:left-[30px] xs:left-[20px]'/>
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details
-            type={"First Class Honors Award"}
+            type={"First-Class Honours"}
             time={"2025"}
-            info={"Scored a perfect 4.0 GPA in undergraduate degree, achieving First Class Honors Award."}
+            info={"Graduated with a perfect 4.0 GPA, earning First-Class Honours in BSc Computer Science (Artificial Intelligence) at Heriot-Watt University."}
             />
             <Details
-            type={"Deputy Principal’s Award"}
-            time={"2023 & 2024 & 2025"}
-            info={"Awarded Academic Excellence Award two consecutive years in recognition of outstanding scholastic performance, achieving Grade A in 6+ undergraduate courses for two consecutive years."}
+            type={"Deputy Principal’s Award for Academic Excellence"}
+            time={"2023, 2024 & 2025"}
+            info={"Awarded by Heriot-Watt University three consecutive years in recognition of outstanding scholastic performance."}
             />
             <Details
-            type={"RTA x Alibaba Hackthon Best Solutions Champion"}
+            type={"RTA × Alibaba Hackathon — Best Solution Champion"}
             time={"2024"}
-            info={" Ranked third place and won the best solutions champion for my solution for improving taxi services in UAE."}
+            info={"Ranked 3rd place overall and won Best Solution Champion for a solution improving taxi services in the UAE."}
             />
             <Details
-            type={"Top 10 in Samsung x UNDP Hackathon"}
+            type={"Top 10 in Samsung × UNDP Hackathon"}
             time={"2024"}
-            info={" Came Top 10 globally presenting innovative solution that helps farmers in agriculture"}
+            info={"Came Top 10 globally presenting an innovative solution that helps farmers in agriculture."}
+            />
+            <Details
+            type={"Microsoft Certified: Azure AI Fundamentals (AI-900)"}
+            time={"Certification — Microsoft"}
+            info={"Microsoft certification covering core AI and machine learning concepts and Azure AI services."}
+            />
+            <Details
+            type={"Machine Learning Specialization"}
+            time={"Certification — Coursera"}
+            info={"Completed the Machine Learning Specialization on Coursera, covering supervised learning, advanced learning algorithms, and unsupervised learning and recommender systems."}
             />
         </ul>
     </div>
